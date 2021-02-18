@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Java Documentation</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+      <nav id="navbar">
+        <header>Java Documentation</header>
+        <ul>
+          <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+          <li><a class="nav-link" href="#Hello_World">Hello World</a></li>
+          <li><a class="nav-link" href="#Variables">Variables</a></li>
+          <li><a class="nav-link" href="#Declaring_variables">Declaring variables</a></li>
+          <li><a class="nav-link" href="#Constants">Constants</a></li>
+          <li id="last-item"><a class="nav-link" href="#References">References</a></li>
+        </ul>
+      </nav>
+      
+      
+      <main id="main-doc">
+        <section class="main-section" id="Introduction">
+          <header><strong>Introduction</strong></header>
+          <article>
+            <p>"Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation" (Wikipedia).</p>
+            <p>"The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them. The Java runtime provides dynamic capabilities (such as reflection and runtime code modification) that are typically not available in traditional compiled languages. As of 2019, Java was one of the most popular programming languages in use according to GitHub, particularly for client-server web applications, with a reported 9 million developers" (Wikipedia).</p>
+            <p>Here are some softwares made with Java:</p>
+            <ul>
+              <li>Minecraft</li>
+              <li>Gmail</li>
+              <li>Android OS</li>
+              <li>Netflix</li>
+            </ul>
+          </article>
+        </section>
+        
+        
+        <section class="main-section" id="Hello_World">
+          <header><strong>Hello World</strong></header>
+          <article>
+            <p>Printing "Hello World" in Java is a little complex, compared with other programming languages like Python.</p>
+            <p>The first step is declaring the Java class:</p>
+            <div class="code-div"><code>public class HelloWorld {<br><br>}</code></div>
+            <p>The second step is creating the main method inside the class:</p>
+            <div class="code-div"><code>public static void main(String args[]) {<br><br>}</code></div>
+            <p>The last step is writing a print method:</p>
+            <div class="code-div"><code>System.out.println("Hello World");</code></div>
+          </article>
+        </section>
+        
+        
+        <section class="main-section" id="Variables">
+          <header><strong>Variables</strong></header>
+          <article>
+            <p>"Variables are containers for storing data values" (w3schools).</p>
+            <p>Java variables/data types are:</p>
+            <ul>
+              <li><strong>byte:</strong> stores whole numbers from -128 to 127;</li>
+              <li><strong>short:</strong> stores whole numbers from -32,768 to 32,767;</li>
+              <li><strong>int:</strong> stores whole numbers from -2,147,483,648 to 2,147,483,647;</li>
+              <li><strong>long:</strong> stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807;</li>
+              <li><strong>float:</strong> stores fractional numbers. Sufficient for storing 6 to 7 decimal digits;</li>
+              <li><strong>double:</strong> stores fractional numbers. Sufficient for storing 15 decimal digits;</li>
+              <li><strong>boolean:</strong> stores true or false values;</li>
+              <li><strong>char:</strong> stores a single character/letter or ASCII values.</li>
+            </ul>
+          </article>
+        </section>
+        
+        
+        <section class="main-section" id="Declaring_variables">
+          <header><strong>Declaring variables</strong></header>
+          <article>
+            <p>You can declare a variable in Java writing the data type value, followed by the name of the variable. You can also assign a values by using "=" [optional].</p>
+            <p>For example, this is how you can declare an integer variable called integerNumber, with a initial value of 2:</p>
+            <div class="code-div"><code>int integerNumber = 2;</code></div>
+          </article>
+        </section>
+        
+        
+        <section class="main-section" id="Constants">
+          <header><strong>Constants</strong></header>
+          <article>
+            <p>"Constant is a value that cannot be changed after assigning it. Java does not directly support the constants. There is an alternative way to define the constants in Java by using the non-access modifiers static and final" (javaTpoint).</p>
+            <p>You can declare a contant by adding "final" at the beggining of the variable declaration. For example, this is how you can declare an integer constant called integerNumber, with a initial value of 2:</p>
+            <div class="code-div"><code>final int integerNumber = 2;</code></div>
+          </article>
+        </section>
+        
+        
+        <section class="main-section" id="References">
+          <header><strong>References</strong></header>
+          <article>
+            <ul>
+              <li>Java (programming language) - <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank">Wikipedia</a></li>
+              <li>8 Best Popular Projects on Java - <a href="https://medium.com/javarevisited/8-best-popular-projects-on-java-e1a663ab3cc1" target="_blank">Javarevisited</a></li>
+              <li>Java Variables - <a href="https://www.w3schools.com/java/java_variables.asp" target="_blank">w3schools</a></li>
+              <li>Java Data Types - <a href="https://www.w3schools.com/java/java_data_types.asp" target="_blank">w3schools</a></li>
+              <li>Java Constant - <a href="https://www.javatpoint.com/java-constant" target="_blank">javaTpoint</a></li>
+          </article>
+        </section>
+      </main>
+    </body>
+</html>
